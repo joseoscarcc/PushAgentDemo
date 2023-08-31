@@ -1,0 +1,65 @@
+Name: Converters
+Id: g=b367c061fb58df85e064b35429b5340f
+Type: ConvertersCategoryFolder
+Children:
+- Name: DeadBandModeToString
+  Id: g=d8bd930dcaeadb6e50d007a6864ac63d
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Id: g=5eee3276ca5b7d41271ac5d1b80c1a71
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Id: g=529942e8376fee0c415e7b418a5181b9
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=40e0d3be6314f856284b776b2bfe59b5
+        Type: BaseDataVariableType
+        DataType: DeadBandModeEnum
+        ModellingRule: None
+        Value: 0
+      - Name: Value
+        Id: g=8b0ce79da110b28d5925d6c27a689f5d
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "None"
+    - Name: Pair1
+      Id: g=d48a5a3dc6c5e31241c6e4ce66676300
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=c43f83e2918062426fd8ed13524d0777
+        Type: BaseDataVariableType
+        DataType: DeadBandModeEnum
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Id: g=367ed9e649058e3b0b3a438ffe82a667
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Absolute"
+    - Name: Pair2
+      Id: g=61b2b8e7a0dc655ad51f06224a872d1e
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=78b760342b55d4cacf5e4eece127a6bc
+        Type: BaseDataVariableType
+        DataType: DeadBandModeEnum
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Id: g=dd50b630ce5a1fb86809669571caebae
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Percentage"

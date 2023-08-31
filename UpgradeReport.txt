@@ -1,0 +1,17 @@
+Project C:\Shared Files - Process Room\FT Optix Files\PushAgentDemo\PushAgentDemo.optix upgraded on 31-08-2023 12:55:24.938
+
+Upgraded modules:
+FTOptix.Core: from 1.0 to 2.0
+FTOptix.Core.Net: from 1.0 to 1.1
+FTOptix.OPCUAServer.Net: from 1.0 to 1.1
+FTOptix.OPCUAServer: from 1.0 to 1.1
+FTOptix.CoreBase: from 1.0 to 2.1
+FTOptix.UI: from 1.0 to 2.0
+FTOptix.UI.Net: from 1.0 to 2.0
+FTOptix.HMIProject: from 1.0 to 4.2
+FTOptix.HMIProject.Net: from 1.0 to 4.2
+FTOptix.NativeUI: from 1.0 to 2.0
+
+No potential breaking changes detected
+
+

@@ -1,0 +1,261 @@
+Name: Loggers
+Id: g=e506b9c597e356dd710ad8b0b737b7ec
+Type: LoggersCategoryFolder
+Children:
+- Name: DataLogger1
+  Id: g=796b576bb0d48c9b3bf07b724166db68
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Id: g=7ed5245e2a3b1b1e12628f1f05fbcee8
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 2
+  - Name: Store
+    Id: g=797f3a7b09ccc035e62e256faa146f85
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"17a5a4c8ca6478396e82d554f5346962","Namespace":20}
+    Children:
+    - Name: Kind
+      Id: g=7ccc22f5551ea30d9c116a2bbe10fac6
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":15}
+  - Name: VariablesToLog
+    Id: g=2b4f10fc2361ad0c2225b49644fc9b83
+    Type: BaseObjectType
+    Children:
+    - Name: Var1
+      Id: g=e327b75aad4a5df540890e1e85f3b3f3
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=7a111bec9ff2ec12073675b9702898df
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=97b2538b43c25eacb9e3e5b6fc2ee19a
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=ba5f741a1fe02bcc496d183f5330a74d
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=140552a1ac73d4b64426ef4e7abb5fd3
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Variable1"
+        Children:
+        - Name: Mode
+          Id: g=46d562c088494192706ce884d16aef13
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Id: g=de9bf6f7b7aa96e19d22186c96f622b4
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 0
+    - Name: Var2
+      Id: g=7104e841aa90779052b706fca4079bb6
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=e73b35d2e18ff6b7784086ada63fedda
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=349781c31846edb2d877bd905fc400d9
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=40601dee4c1f090e8c7edf492aa4cd39
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=27b8c88263ec3dcbd0eb27e2343c9990
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Variable2"
+        Children:
+        - Name: Mode
+          Id: g=9d44a9ca202df11378b65ac5a143190c
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Id: g=4b5c2f17bd728eebf1f0a6218de28148
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Id: g=6e09b88a4b1815f68f0b1f3ce8702da2
+        Type: PropertyType
+        DataType: Double
+        Value: 10.0
+    - Name: Var3
+      Id: g=29395492b348ed01434ba5af2a46d0ab
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=7468d282def617815102a91e7328d603
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=263f25745ceab2e6ae049d57ed1fe5d6
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=9f8413e1d8127a36dd6ce9de7dfde575
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=21112295ee795b0186b44138484d2285
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Variable3"
+        Children:
+        - Name: Mode
+          Id: g=e339ac3d74de0fe50837019880376c1a
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Id: g=a9329d9962e464ffab0288c4f8b273f9
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 2
+      - Name: DeadBandValue
+        Id: g=0852ed9f5e9e75866ac3af4eebb6b084
+        Type: PropertyType
+        DataType: Double
+        Value: 10.0
+    - Name: ScaledTag
+      Id: g=eb0357708ab205117982eecd4bcbae8a
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=6b4a780c7486616128cca2f00af9eb54
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=c0389ce7780b4c3dbe94d871897a0e2d
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=22a3e34bd4226d2c428cc22ca528fa77
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=f45915a5e1e60a1e45c2fafe846391b9
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/ScaledTag"
+        Children:
+        - Name: Mode
+          Id: g=8cc9d185031d0b32d8357a4efead24b7
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Id: g=1576673e15f5f4f74eec6bb071407e88
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Id: g=6ac697c3a555400084b1d6d778190e59
+        Type: PropertyType
+        DataType: Double
+        Value: 50.0
+    - Name: Var4
+      Id: g=725bfa111c721d69e0ca3ba09744f027
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=4b74fe3a0eb6285ffbc5149b4e5e87d0
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=3967d772b934db3c9466a2f80837cd3d
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=d45343e3beca3cec1e1d82ec655f513a
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=7cd0b2529967f915054522fdda35abaf
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Variable4"
+        Children:
+        - Name: Mode
+          Id: g=9f8e7a3ac1723b3c5d110a66255cabbf
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Id: g=79f902ba790235e061e4219f8cc538b0
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 2
+  - Class: Reference
+    Target: ns=11;i=21
+    Direction: Forward
+  - Name: PollingPeriod
+    Id: g=ecaf06028c2ed5d35b29ffd83fdc24ec
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:0.1000000"
+  - Name: SamplingPeriod
+    Id: g=37d5f7b0080f619eb3245763a0a570d9
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:1.0000000"
+  - Name: DefaultDeadBandValue
+    Id: g=c5b5119469ee8bde50b3273157f5c579
+    Type: PropertyType
+    DataType: Double
+    Value: 20.0
+  - Name: LogVariableOperationCode
+    Id: g=5f0d95001ef5ba1d0aba0cead0b93049
+    Type: PropertyType
+    DataType: Boolean
+    Value: false
+  - Name: LogVariableTimestamp
+    Id: g=cf8428271555e4ff4f882677f99477a3
+    Type: PropertyType
+    DataType: Boolean
+    Value: false

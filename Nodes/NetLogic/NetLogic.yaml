@@ -1,0 +1,109 @@
+Name: NetLogic
+Id: g=3e7ca8376598713829dd3cea19f59fb1
+Type: NetLogicCategoryFolder
+Children:
+- Name: VariableUpdate
+  Id: g=e67cb7b1fa0a3f88e3e664d508bcc107
+  Type: NetLogic
+- Name: PushAgent
+  Id: g=11f8cfdc53351c39865dad82212ac8d0
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: DataLogger
+    Id: g=4a56125657200d50fd7b015c48516269
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"796b576bb0d48c9b3bf07b724166db68","Namespace":20}
+    Children:
+    - Name: Kind
+      Id: g=439d4ed8700e3ee97e006dc4470eed72
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":3,"Namespace":11}
+  - Name: PushFullSample
+    Id: g=56dd85ef815791d3bef0bd86139aada5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: PreserveDataLoggerHistory
+    Id: g=75320f0e3301d4f68513c1afbbb26335
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: MaximumStoreCapacity
+    Id: g=8c35d668ab625e505e9eb077746fff76
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1000
+  - Name: MaximumItemsPerPacket
+    Id: g=738f726c2e9dab3ef0f4dccadf303df8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 5
+  - Name: MaximumPublishTime
+    Id: g=58f16574485d56fa97ba0c66c21a354f
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:10.0000000"
+  - Name: MinimumPublishTime
+    Id: g=ab340a3802c9168e056b51fb3c7049bc
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:1.0000000"
+  - Name: ClientId
+    Id: g=6d4d9e7a1e02ed7702100c25f5c24971
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "FTOptixDemoClient"
+  - Name: BrokerIPAddress
+    Id: g=0e6dd0683a122c8c4b117c7fe0c36dad
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "test.mosquitto.org"
+  - Name: BrokerPort
+    Id: g=f0c25e85e256caf67872cf37d39bb0c2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1883
+  - Name: BrokerTopic
+    Id: g=7abb7667c7fad3784d61e9e87665ffb5
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ftoptix_mqtt_demo"
+  - Name: QoS
+    Id: g=a4aa542257f78b385a417cb0a3060a3e
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+  - Name: UseSSL
+    Id: g=218595e36ebbc05675be2e5585d4d193
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: CACert
+      Id: g=77cd14c8c537f84ee875c8c0f2b7225d
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: ClientCert
+      Id: g=b98edd2a2cb080893512ce0fcf054ee2
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: ClientCertPassword
+      Id: g=0bdf21508cc981f3489d156970dae829
+      Type: BaseDataVariableType
+      DataType: Password
+      Value: ""
+  - Name: Username
+    Id: g=9b4679a6c9f6c6f9932e71a89b1f02b8
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Password
+    Id: g=cf860230422f3b331513570a0f3212c4
+    Type: BaseDataVariableType
+    DataType: Password
+    Value: ""

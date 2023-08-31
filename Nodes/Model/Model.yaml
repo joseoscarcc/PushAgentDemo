@@ -1,0 +1,188 @@
+Name: Model
+Id: g=1b6acf3ef9a37b8cf0f8edf99a6dece2
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Id: g=0f448e39b544cac1f3468152087d96e6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+- Name: Variable2
+  Id: g=dfa76eaca33b571ffd3d17b10df50f80
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 20
+- Name: Variable3
+  Id: g=ed2b2805f23b2a9a57755bd881474e1d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: ns=0;EURange
+    Id: g=c2e4db29770ff8fb3b1512a9fc44ba4d
+    Type: RangeType
+    DataType: EURange
+    Value: 
+     {
+      "TypeId": {
+       "Id": 884
+      },
+      "Body": {
+       "low": 0.0,
+       "high": 0.0
+      }
+     }
+    Children:
+    - Name: Low
+      Id: g=5945aef7361c51a7ec9f2ec0f471ad8a
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=1eaa0551faf103600c2743d8e214ed98
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 100.0
+- Name: ScaledTag
+  Id: g=4be86a66a4409a9fd01b8cf010d80d1b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: EngineeringUnitConverter1
+    Id: g=22347c1935c9552275e6cac4e04fed5b
+    Type: EUConverter
+    Children:
+    - Name: Source
+      Id: g=535b6becb7459407b2638afffabccb55
+      Type: BaseDataVariableType
+      DataType: Number
+      ReferenceType: HasSource
+      Value: {"Type":11,"Body":0.0}
+      Children:
+      - Name: DynamicLink
+        Id: g=b30487b238d8025a3424805d0462ba04
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Variable5"
+        Children:
+        - Name: Mode
+          Id: g=7b98ba7bb76c7d4ef32cfd7ca1c99690
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: RawMin
+      Id: g=4be36a9fb0825c9c2da646ba8015df52
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 0.0
+    - Name: RawMax
+      Id: g=a8114133d8491ecb3b3b5c5eb5248611
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 65535.0
+    - Name: ScaledMin
+      Id: g=ec5e102c1d76c30eeb644e5dae6f7a84
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 0.0
+      Children:
+      - Name: DynamicLink
+        Id: g=b0199cf947a047887d593000b051eb3f
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EURange/Low"
+    - Name: ScaledMax
+      Id: g=b6dbf0448672a5821ee57459f085fb0d
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 10000.0
+      Children:
+      - Name: DynamicLink
+        Id: g=c36d06a6924855cc7c05f2191e2af89c
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EURange/High"
+    - Name: Mode
+      Id: g=986d09be234ddbb86dd6f4d91e97e6ac
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+  - Name: ns=0;EURange
+    Id: g=af762413178be341d8353b73a5000949
+    Type: RangeType
+    DataType: EURange
+    Value: 
+     {
+      "TypeId": {
+       "Id": 884
+      },
+      "Body": {
+       "low": 0.0,
+       "high": 0.0
+      }
+     }
+    Children:
+    - Name: Low
+      Id: g=3e287f979c5d0a488b410560d8a4feec
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=7f3f80191fe91a2086b79a28af2da7d0
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 10000.0
+    - Name: Constrain
+      Id: g=d25f6748552899b126521bb6970341eb
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
+- Name: Variable4
+  Id: g=a55e281c62b424b7cd064a58caa8eace
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: ns=0;EURange
+    Id: g=1b894e985b3d9d9f58fb1e45fea2e898
+    Type: RangeType
+    DataType: EURange
+    Value: 
+     {
+      "TypeId": {
+       "Id": 884
+      },
+      "Body": {
+       "low": 0.0,
+       "high": 0.0
+      }
+     }
+    Children:
+    - Name: Low
+      Id: g=9ca879923c5c5c5d5f3f74ed52feb221
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=561ed60ba3d09813f3e9ddd36da7abb6
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 100.0
+- Name: Variable5
+  Id: g=b7209cf275cf397af01b537962ad1986
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

@@ -1,0 +1,127 @@
+Name: DataStores
+Id: g=037793fec31b97a095a2dfd648146cb3
+Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=17a5a4c8ca6478396e82d554f5346962
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=d4cfad183caac8f122e2d4284649e5fe
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Id: g=52088b560c1917c72e86a71a2a35589f
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=15;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=44866caf5a02f487769d99837a97e711
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Id: g=fd24ef66bca8490a76522c0c2df48f71
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Var1
+          Id: g=b0d572fd779b41d29565b8c772e690ae
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Var2
+          Id: g=cd6c090c79fb26c8f9455b8d2ac27e2f
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Var3
+          Id: g=9d80dffc878479467c53e410e3be0c15
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: ScaledTag
+          Id: g=d1992455531288b245c8dcd85674d54d
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Var4
+          Id: g=65796d3e01d02cbe106ae97d18d2b27d
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+  - Class: Reference
+    Target: ns=17;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=3a72a826dc4ca57b896b80707aac3ce0
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Id: g=4dcd273a69b7dfa9d0fa7dd404f83198
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Id: g=c6b148b9e4538899317d7b1c3ebd19c7
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Id: g=c68110edb2605ad8cda923fa21e484d9
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=15;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=59
+    Direction: Forward
