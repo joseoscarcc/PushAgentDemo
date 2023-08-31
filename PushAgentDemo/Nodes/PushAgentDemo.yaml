@@ -1,0 +1,75 @@
+Name: PushAgentDemo
+Id: g=56b5bbe731ce7d222216257d46c2aa7c
+Type: ProjectFolder
+Children:
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Users/Users.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: PasswordPolicy
+  Id: g=d54883f82da477a29300a7e5b2f5cf72
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=b4c8cde2dd1f2bfadc52ef75fda534ee
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=03bce79cb3ff9f86a3bff1246987f8ce
+    Type: PropertyType
+    DataType: Byte
+    Value: 0
+  - Name: MinimumPasswordAge
+    Id: g=53d54821b3c8e36e11578df83a2f4f08
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=da32ed778265df9355f948158dcf770b
+    Type: PropertyType
+    DataType: Byte
+    Value: 0
+- Name: Authentication
+  Id: g=2a762f0d86be4aafa82ef23ce432cddd
+  Type: PropertyGroup
+- Name: AlarmConfiguration
+  Id: g=6ec4d83cf7aa2da159ca3ec1e1c17516
+  Type: PropertyGroup
+  Children:
+  - Name: BranchingEnabled
+    Id: g=8a724cb70af8a2714292e7bd164c1fd4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: false
+- Name: Localization
+  Id: g=4b22b530e7ba2e730519b919ccb8c103
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=57e095ce7f8a091ef37c7414b6342912
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Id: g=5a712d31b2cbf8a925c8fa130631099f
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
