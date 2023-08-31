@@ -107,19 +107,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SOseguera\\.nuget\\packages\\": {}
+    "C:\\Users\\joseo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Shared Files - Process Room\\FT Optix Files\\PushAgentDemo\\ProjectFiles\\NetSolution\\PushAgentDemo.csproj",
+      "projectUniqueName": "C:\\Users\\joseo\\OneDrive\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\PushAgentDemo\\ProjectFiles\\NetSolution\\PushAgentDemo.csproj",
       "projectName": "PushAgentDemo",
-      "projectPath": "C:\\Shared Files - Process Room\\FT Optix Files\\PushAgentDemo\\ProjectFiles\\NetSolution\\PushAgentDemo.csproj",
-      "packagesPath": "C:\\Users\\SOseguera\\.nuget\\packages\\",
-      "outputPath": "C:\\Shared Files - Process Room\\FT Optix Files\\PushAgentDemo\\ProjectFiles\\NetSolution\\obj\\",
+      "projectPath": "C:\\Users\\joseo\\OneDrive\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\PushAgentDemo\\ProjectFiles\\NetSolution\\PushAgentDemo.csproj",
+      "packagesPath": "C:\\Users\\joseo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joseo\\OneDrive\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\PushAgentDemo\\ProjectFiles\\NetSolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SOseguera\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\joseo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -163,12 +163,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\Rockwell Automation\\FactoryTalk Optix\\Studio\\Tools\\DotNetSdk\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -177,7 +191,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'M2Mqtt 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"M2Mqtt 4.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "M2Mqtt",
       "targetGraphs": [
         "net6.0"

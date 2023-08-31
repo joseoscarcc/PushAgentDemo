@@ -55,32 +55,32 @@ Children:
     Id: g=6d4d9e7a1e02ed7702100c25f5c24971
     Type: BaseDataVariableType
     DataType: String
-    Value: "FTOptixDemoClient"
+    Value: "jojuma_"
   - Name: BrokerIPAddress
     Id: g=0e6dd0683a122c8c4b117c7fe0c36dad
     Type: BaseDataVariableType
     DataType: String
-    Value: "test.mosquitto.org"
+    Value: "bd846e75ffdd405ca23015c5edaa1c75.s1.eu.hivemq.cloud"
   - Name: BrokerPort
     Id: g=f0c25e85e256caf67872cf37d39bb0c2
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1883
+    Value: 8883
   - Name: BrokerTopic
     Id: g=7abb7667c7fad3784d61e9e87665ffb5
     Type: BaseDataVariableType
     DataType: String
-    Value: "ftoptix_mqtt_demo"
+    Value: "lcd.test"
   - Name: QoS
     Id: g=a4aa542257f78b385a417cb0a3060a3e
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 2
+    Value: 0
   - Name: UseSSL
     Id: g=218595e36ebbc05675be2e5585d4d193
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
+    Value: true
     Children:
     - Name: CACert
       Id: g=77cd14c8c537f84ee875c8c0f2b7225d
@@ -101,9 +101,9 @@ Children:
     Id: g=9b4679a6c9f6c6f9932e71a89b1f02b8
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "bigJOE"
   - Name: Password
     Id: g=cf860230422f3b331513570a0f3212c4
     Type: BaseDataVariableType
     DataType: Password
-    Value: ""
+    Value: "factoryTalk31082023"
